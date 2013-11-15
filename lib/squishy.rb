@@ -22,6 +22,6 @@ class Squishy
 
     system("java -jar #{[options, html_options].flatten.join(' ')}")
     system("java -jar #{[options, xml_options].flatten.join(' ')}")
-    puts "\nSquished!"
+    puts "Squished!"
   end
 end
